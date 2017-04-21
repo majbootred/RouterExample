@@ -1,0 +1,33 @@
+{
+  "DefaultEnvironment": "dev",
+  "Sites": [
+    {
+      "Environment": "dev",
+      "Name": "dev",
+      "FastMode": false,
+      "Url": "https://portal.l2dev2013.local/",
+      "Files": [
+        {
+          "Source": "dist",
+          "Destination": "/Style Library/RoutingExample/",
+          "Exclude": ""
+        }
+      ]
+    },
+    {
+      "Environment": "prod",
+      "Name": "prod",
+      "FastMode": false,
+      "Url": "https://portal.l2dev2013.local/",
+      "Username": "Administrator",
+      "Password": "intra.1",
+      "Files": [
+        {
+          "Source": "dist",
+          "Destination": "/Style Library/RoutingExample/",
+          "Exclude": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+.tilenavigation .image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: left;
+  margin: 10px;
+}
+
+.tilenavigation .title{
+  background-color: rgba( 0,0,0,0.8 );
+  font: Calibri;
+  font-size: 13px;
+  padding: 0 10px;
+  text-align:left;
+}
+
+.tilenavigation .title span {
+  color: #ffffff !important;
+  display: block;
+  line-height: 28px !important;
+  margin-top:0 !important;
+  padding-top:2px !important;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.tilenavigation .description {
+  height: 0px;
+  overflow: hidden;
+  float: left;
+  padding: 0 10px;
+  position: relative;
+  text-align: left;
+  z-index: 0;
+  background-color: rgba( 0,0,0,0.8 );
+  color: #ffffff !important;
+}

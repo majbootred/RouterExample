@@ -1,0 +1,10 @@
+{
+  "dev": {
+    "type": "dev",
+    "publicPath": "/Style Library/RoutingExample/"
+  },
+  "prod": {
+    "type": "prod",
+    "publicPath": "/Style Library/RoutingExample/"
+  }
+}
