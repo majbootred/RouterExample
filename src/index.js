@@ -5,10 +5,12 @@ import { render } from 'react-dom';
 
 import TileNavigation from './Apps/TileNavigation/TileNavigation';
 import SubscriberList from './Apps/SubscriberList/SubscriberList';
+import ReactRouting from './Apps/ReactRouting/ReactRouting';
 
 const Apps = {
   TileNavigation,
   SubscriberList,
+  ReactRouting
 }
 
 function renderApps(appElement) {
