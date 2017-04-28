@@ -11,12 +11,12 @@ export default class ReactRouting extends Component {
         return (
             <BrowserRouter>
                 <div>
-                    <Header />
-                    <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h1>
-                    <div>
-                        <Route exact path="/" component={Home} />
-                        <Route path="/about" component={About} />
+                   <div>
+                        <Route exact path="/" component={Home}/>
+                        <Route path="/about" component={About}/>
                     </div>
+                    <Header />
+                    <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h2>
                 </div>
             </BrowserRouter>
         )
